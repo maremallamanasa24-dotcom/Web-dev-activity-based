@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" >
+    <title>Travel Agency Website</title>
+    <link rel="stylesheet" href="case16.css">
+</head>
+<body>
+
+    <header>
+        <h2>Travel World</h2>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#destinations">Destinations</a>
+            <a href="#packages">Packages</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Explore The World!</h1>
+        <p>Discover beautiful places and create memories.</p>
+        <a href="#packages" class="btn">Explore Now</a>
+    </section>
+
+    <section id="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="container">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?w=500" alt="Taj Mahal">
+                <h3>Agra</h3>
+                <p>Explore historical monuments.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=500" alt="Mountain lake">
+                <h3>Manali</h3>
+                <p>Enjoy mountains and nature.</p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=500" alt="Dubai">
+                <h3>Dubai</h3>
+                <p>Experience luxury and adventure.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="packages" class="packages">
+        <h2>Holiday Packages</h2>
+        <div class="container">
+            <div class="package">
+                <h3>Kerala Trip</h3>
+                <p>Duration: 4 Days / 3 Nights</p>
+                <p>Price: ₹9,999</p>
+                <p>Day 1: Arrival</p>
+                <p>Day 2: Sightseeing</p>
+                <p>Day 3: Backwaters</p>
+                <p>Day 4: Return</p>
+            </div>
+
+            <div class="package">
+                <h3>Manali Trip</h3>
+                <p>Duration: 5 Days / 4 Nights</p>
+                <p>Price: ₹12,999</p>
+                <p>Day 1: Arrival</p>
+                <p>Day 2: Solang Valley</p>
+                <p>Day 3: Local Tour</p>
+                <p>Day 4: Adventure</p>
+                <p>Day 5: Return</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Travel Inquiry</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+
+            <select required>
+                <option value="">Select Destination</option>
+                <option>Agra</option>
+                <option>Manali</option>
+                <option>Kerala</option>
+                <option>Dubai</option>
+            </select>
+
+            <input type="date" required>
+            <input type="number" placeholder="Number of Travelers"
+                   min="1" required>
+            <textarea placeholder="Your Requirements"></textarea>
+            <button type="submit">Submit Inquiry</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2026 Travel World | Explore. Dream. Discover.</p>
+    </footer>
+
+</body>
+</html>
